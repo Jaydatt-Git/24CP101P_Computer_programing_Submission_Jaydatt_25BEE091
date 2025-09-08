@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main() {
+
+    float a = 10 , b = 5 ,qutiont;
+    qutiont = a / b;
+    printf("The qutiont of 10 and 5 is :%f",qutiont);
+    return 0;
+
+}

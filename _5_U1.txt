@@ -1,0 +1,21 @@
+// Use of all arithmetic operaters
+#include<stdio.h>
+int main() {
+
+    float a = 10 , b = 5 ,sum,difference,product,qutiont;
+
+    sum = a + b;
+    printf("The sum of 10 and 5 is :%f \n",sum);
+
+    difference = a - b;
+    printf("The difference of 10 and 5 is :%f \n",difference);
+
+    product = a * b;
+    printf("The product of 10 and 5 is :%f\n",product);
+
+    qutiont = a / b;
+    printf("The qutiont of 10 and 5 is :%f\n",qutiont);
+
+
+    return 0;
+}
