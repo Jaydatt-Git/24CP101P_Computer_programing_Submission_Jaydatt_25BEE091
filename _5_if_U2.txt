@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main() {
+
+    int gross_sales,discounts,net_sales;
+
+    printf("Enter your Gross Sale = ");
+    scanf("%d",& gross_sales);
+
+    if (gross_sales > 20000) {
+
+        int discounts = gross_sales * 15/ 100;
+        int net_sales = gross_sales - discounts;
+        printf("Your net_sales is  = %d",net_sales);
+
+    }
+    else  if ( gross_sales > 10000) {
+
+        int discounts = gross_sales * 10/ 100;
+        int net_sales = gross_sales - discounts;
+        printf("Your net_sales is  =%d",net_sales);
+    }
+    else{
+
+        int discounts = gross_sales * 5/100;
+        int net_sales = gross_sales - discounts;
+        printf("Your net_sales is =%d",net_sales);
+    }
+        
+    
+ 
+    return 0;
+
+}

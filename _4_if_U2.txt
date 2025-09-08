@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main() {
+
+    int n;
+
+    printf("Enter the number for which you want to check divisiblity with 7 = ");
+    scanf("%d",&n);
+
+    if(n%7==0){
+        printf("The Number %d is divisible by 7",n);
+    }
+
+    else{
+        printf("The Number %d id not divisible by 7",n);
+    }
+    return 0;
+
+}

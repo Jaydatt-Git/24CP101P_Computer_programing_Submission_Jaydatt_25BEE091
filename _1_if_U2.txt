@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main () {
+
+    int A,B;
+
+    printf("Enter A = ");
+    scanf("%d",&A);
+    printf("Enter B = ");
+    scanf("%d",&B);
+    if( A > B ) {
+        printf("'A' is largest among two");
+    }
+    else{
+        printf("'B' is the largest among two");
+    }
+     return 0;
+}
